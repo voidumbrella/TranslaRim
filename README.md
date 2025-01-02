@@ -22,7 +22,7 @@ Once you figure out a way to write to this folder through your method of choice:
 2. Locate the `Android/data/com.epidgames.trickcalrevive/files/Packages/tables` folder.
 3. Overwrite the `kr.client` file with the patched version you downloaded.
 
-Note that if you (or my patch) completely breaks the `kr.client` file, the game can still boot.
+Note that if you (or my patch) somehow completely break the resource files, the game can still boot.
 It will just hang on the main screen, and you can redownload any broken resource files from the client (see the top right button).
 So there's really no need to make a backup unless it makes you feel better or you don't want to wait for the download.
 
