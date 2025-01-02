@@ -11,20 +11,20 @@ You need some way to access the `Android/data` folder on your device.
 Thankfully, you do NOT need to root your device for this, but Android thinks all users are idiots and prevent you from touching anything system related.
 Feel free to research your own ways to do this.
 Using [Android Debug Bridge](https://developer.android.com/tools/releases/platform-tools) command line tools to push the files is a possibility.
-If terminals are too scary for you, [ADB Explorer] offers a graphical interface for ADB.
+If terminals are too scary for you, [ADB Explorer](https://github.com/Alex4SSB/ADB-Explorer) offers a graphical interface for ADB.
 
 Some people on the Internet report that [Shizuku](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api) is an app
 that can help you get access without connecting to a separate computer.
 Have not tried this myself and you'd need to do your own research on that.
 
 Once you figure out a way to write to this folder through your method of choice:
-1. Download the latest `kr_patched.client` file.
+1. Download the latest `patched_kr.client` file from [Github Releases](https://github.com/voidumbrella/TranslaRim/releases)
 2. Locate the `Android/data/com.epidgames.trickcalrevive/files/Packages/tables` folder.
-3. Overwrite the `kr.client` file with the patched version you downloaded.
+3. (Optional) Make a backup of any files you are replacing below.
+4. Overwrite the `kr.client` file with the patched version you downloaded.
 
-Note that if you (or my patch) completely breaks the `kr.client` file, the game can still boot.
-It will just hang on the main screen, and you can redownload any broken resource files from the client (see the top right button).
-So there's really no need to make a backup unless it makes you feel better or you don't want to wait for the download.
+If the patch somehow breaks the game, the game will still boot but hang on the initial splash screen.
+You can then redownload all the data files from the upper right button.
 
 ## Can this get me banned?
 This only modifies a couple of resource files that contain nothing but text.
