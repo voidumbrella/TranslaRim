@@ -1,11 +1,19 @@
 ![Header](./header.png)
 
 # TranslaRIM
-This is an unofficial English patch for Trickal Re:vive.
+This is an unofficial English patch for Trickal Re:VIVE.
 It's pronounced like "translating" with the last syllable replaced with the best Ghost of the game.
+
+## Disclaimer
+At this moment, the patch is largely incomplete, barely proofread, and written by someone fluent in zero languages.
+Any suggestions/criticisms/reports of mistakes are welcome.
+
+There is currently no plan to translate the story.
 
 ## Installation
 Only Android devices are supported.
+I don't own any iOS devices so I have no idea if any of these below steps are possible without jailbreak.
+Please let me know if you do figure it out.
 
 You need some way to access the `Android/data` folder on your device.
 Thankfully, you do NOT need to root your device for this, but Android thinks all users are idiots and prevent you from touching anything system related.
@@ -13,15 +21,13 @@ Feel free to research your own ways to do this.
 Using [Android Debug Bridge](https://developer.android.com/tools/releases/platform-tools) command line tools to push the files is a possibility.
 If terminals are too scary for you, [ADB Explorer](https://github.com/Alex4SSB/ADB-Explorer) offers a graphical interface for ADB.
 
-Some people on the Internet report that [Shizuku](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api) is an app
-that can help you get access without connecting to a separate computer.
-Have not tried this myself and you'd need to do your own research on that.
+I've also had success with FV File Manager which seems to work without any hassle.
 
 Once you figure out a way to write to this folder through your method of choice:
-1. Download the latest `patched_kr.client` file from [Github Releases](https://github.com/voidumbrella/TranslaRim/releases)
+1. Download the latest files from [Github Releases](https://github.com/voidumbrella/TranslaRim/releases)
 2. Locate the `Android/data/com.epidgames.trickcalrevive/files/Packages/tables` folder.
 3. (Optional) Make a backup of any files you are replacing below.
-4. Overwrite the `kr.client` file with the patched version you downloaded.
+4. Overwrite any files with patched versions you downloaded.
 
 If the patch somehow breaks the game, the game will still boot but hang on the initial splash screen.
 You can then redownload all the data files from the upper right button.
