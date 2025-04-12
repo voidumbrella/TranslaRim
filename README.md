@@ -4,9 +4,13 @@
 This is an unofficial English patch for Trickal Re:VIVE.
 It's pronounced like "translating" with the last syllable replaced with the best Ghost of the game.
 
+Feel free to check out the [Wiki](https://namuwitch.miraheze.org/wiki/Main_Page) to see the translation progress.
+
+If you need to contact me, please join the [unofficial Trickcal Discord server](https://discord.gg/zSen6pQj3r).
+
 ## Disclaimer
 At this moment, the patch is largely incomplete, barely proofread, and written by someone fluent in zero languages.
-Any suggestions/criticisms/reports of mistakes are welcome.
+Any suggestions/criticisms/reports of mistakes are more than welcome.
 
 If you are wondering, translating the story is very low priority right now.
 
@@ -35,3 +39,4 @@ I don't think anyone has been banned for something like this in the history of a
 
 Note that detecting the resource files have been tampered with is trivial, so if EpidGames *really* wanted to, they could ban you for this.
 Mostly saying this to cover my ass and I highly doubt they would do something like that.
+
